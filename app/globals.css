@@ -18,12 +18,11 @@
 @media(max-width:480px){.admin-stat-grid{grid-template-columns:1fr}.admin-topbar{flex-direction:column}.admin-refresh{align-self:flex-end}}
 
 
-/* ========================================
-   SOMOS LEGADO - IDENTIDAD CORPORATIVA
-   ======================================== */
+/* LOGO SOMOS LEGADO */
 
 .brand-logo {
   display: flex;
+  flex-direction: column;
   align-items: center;
   flex-shrink: 0;
   text-decoration: none;
@@ -31,22 +30,48 @@
 
 .brand-logo img {
   display: block;
-  width: 125px;
+  width: 95px;
   height: auto;
   object-fit: contain;
+}
+
+.brand-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3px;
+  color: #777166;
+  font-size: 7px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.brand-parent strong {
+  color: #304733;
+  font-weight: 600;
 }
 
 /* Tablet */
 @media (max-width: 900px) {
   .brand-logo img {
-    width: 115px;
+    width: 88px;
+  }
+
+  .brand-parent {
+    font-size: 6.5px;
   }
 }
 
 /* Móvil */
 @media (max-width: 600px) {
   .brand-logo img {
-    width: 105px;
+    width: 82px;
+  }
+
+  .brand-parent {
+    font-size: 6px;
   }
 }
 
