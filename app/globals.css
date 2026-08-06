@@ -2155,45 +2155,52 @@ footer strong {
   }
 
 
-  /* -----------------------------------------
-     PRINCIPIOS
-     ----------------------------------------- */
+/* -----------------------------------------
+   PRINCIPIOS
+   ----------------------------------------- */
 
-  .principles {
-    width: 100%;
-  }
+.principles {
+  width: 100%;
+}
 
-  .principles > .section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+.principles > .section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-  .principle-grid {
-    width: 100%;
+/* Texto "Seis compromisos..." */
+.principles .section-heading > p:not(.eyebrow) {
+  width: calc(100% - 24px);
+  margin-left: auto;
+  margin-right: auto;
 
-    display: grid;
-    grid-template-columns: 1fr;
+  text-align: justify !important;
+  text-justify: inter-word;
+}
 
-    gap: 1px;
-  }
+.principle-grid {
+  width: 100%;
 
-  .principle-grid article {
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+}
 
-    margin: 0;
-    padding: 28px 24px;
-  }
+.principle-grid article {
+  width: 100%;
 
-  .principle-grid article p {
-    width: 100%;
+  margin: 0;
+  padding: 28px 24px;
+}
 
-    text-align: justify;
-    text-justify: inter-word;
+.principle-grid article p {
+  width: 100%;
 
-    hyphens: none;
-  }
+  text-align: justify !important;
+  text-justify: inter-word;
 
-
+  hyphens: none;
+}
   /* -----------------------------------------
      SERVICIOS
      ----------------------------------------- */
