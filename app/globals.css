@@ -148,6 +148,18 @@
   .brand-parent strong {
     font-size: 8px;
   }
+   .hero-content {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.hero .lead {
+  width: 100%;
+  max-width: 100%;
+}
 }
 
 /* Textos editoriales justificados */
