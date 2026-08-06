@@ -95,3 +95,34 @@
     text-align: justify;
   }
 }
+
+/* ========================================
+   TEXTOS JUSTIFICADOS - REQUISITO CLIENTE
+   ======================================== */
+
+.section-heading > p:not(.eyebrow),
+.feature-grid article p,
+.story-copy > p:not(.eyebrow),
+.story-card > p,
+.story-card blockquote,
+.founder-grid article p,
+.principle-grid article p,
+.services .section-heading > p:not(.eyebrow),
+.payment-note p,
+.service-list li,
+.legal-note,
+.contact-copy > p:not(.eyebrow),
+.footer-brand-text p,
+.footer-company p,
+.hero .lead {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+/* Mejor lectura en español */
+p,
+li,
+blockquote {
+  hyphens: auto;
+}
