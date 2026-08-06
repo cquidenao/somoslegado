@@ -416,12 +416,10 @@ export default function Home() {
       <footer>
         <div className="footer-main">
           <div>
-            <div className="footer-brand">
-              <span>❀</span>
-              <strong>SomosLegado</strong>
-            </div>
-            <p>Lo que se sembró, florece.</p>
-          </div>
+            <div className="footer-brand-text">
+  <strong>Somos Legado</strong>
+  <p>Lo que hacemos hoy, permanece mañana.</p>
+</div>
 
           <div>
             <strong>Una empresa de</strong>
