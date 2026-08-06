@@ -31,9 +31,23 @@
 
 .brand-logo img {
   display: block;
-  width: 190px;
+  width: 125px;
   height: auto;
   object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .brand-logo img {
+    width: 115px;
+  }
+}
+
+/* Móvil */
+@media (max-width: 600px) {
+  .brand-logo img {
+    width: 105px;
+  }
 }
 
 /* Textos editoriales justificados */
