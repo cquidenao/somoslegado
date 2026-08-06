@@ -98,16 +98,17 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a
-          href="/"
-          className="brand-logo"
-          aria-label="Somos Legado - Inicio"
-        >
-          <img
-            src="/images/logo-somos-legado.jpeg"
-            alt="Somos Legado"
-          />
-        </a>
+        <a href="/" className="brand-logo" aria-label="Somos Legado - Inicio">
+  <img
+    src="/images/somos-legado.png"
+    alt="Somos Legado"
+  />
+
+  <span className="brand-parent">
+    Una empresa de
+    <strong>OlaveEchenique Abogados | Consultores</strong>
+  </span>
+</a>
 
         <nav aria-label="Navegación principal">
           <a href="#inicio">Inicio</a>
