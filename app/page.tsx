@@ -98,17 +98,12 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a
-          className="brand"
-          href="#inicio"
-          aria-label="SomosLegado, ir al inicio"
-        >
-          <span className="brand-symbol">❀</span>
-          <span>
-            <strong>SomosLegado</strong>
-            <small>Lo que se sembró, florece</small>
-          </span>
-        </a>
+        <a href="/" className="brand-logo" aria-label="Somos Legado - Inicio">
+  <img
+    src="/images/logo-somos-legado.jpeg"
+    alt="Somos Legado"
+  />
+</a>
 
         <nav aria-label="Navegación principal">
           <a href="#inicio">Inicio</a>
