@@ -369,3 +369,25 @@ blockquote {
     border-bottom: 0;
   }
 }
+/* TEXTOS JUSTIFICADOS EN MÓVIL */
+.hero .lead,
+.section-heading > p:not(.eyebrow),
+.feature-grid article p,
+.story-copy > p,
+.story-card > p,
+.founder-grid article p,
+.principle-grid article p,
+.services .section-heading > p:not(.eyebrow),
+.service-list li,
+.legal-note,
+.contact-copy > p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+/* Títulos se mantienen centrados */
+.hero h1,
+.section-heading h2 {
+  text-align: center;
+}
