@@ -98,12 +98,16 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a href="/" className="brand-logo" aria-label="Somos Legado - Inicio">
-  <img
-    src="/images/logo-somos-legado.jpeg"
-    alt="Somos Legado"
-  />
-</a>
+        <a
+          href="/"
+          className="brand-logo"
+          aria-label="Somos Legado - Inicio"
+        >
+          <img
+            src="/images/logo-somos-legado.jpeg"
+            alt="Somos Legado"
+          />
+        </a>
 
         <nav aria-label="Navegación principal">
           <a href="#inicio">Inicio</a>
@@ -123,17 +127,19 @@ export default function Home() {
         <div className="hero-leaves leaves-left" aria-hidden="true">
           ❧
         </div>
+
         <div className="hero-leaves leaves-right" aria-hidden="true">
           ❧
         </div>
 
         <div className="hero-content">
           <p className="eyebrow">Asesoría legal sucesoria</p>
+
           <FlowerMark />
 
           <h1>
-            Cuando alguien que amas ya no está, los trámites legales no
-            deberían ser otra carga.
+            Cuando alguien que amas ya no está, los trámites legales no deberían
+            ser otra carga.
           </h1>
 
           <p className="lead">
@@ -168,7 +174,9 @@ export default function Home() {
       <section className="section problem">
         <div className="section-heading">
           <p className="eyebrow">El problema que resolvemos</p>
+
           <h2>Más de 40 trámites pueden aparecer después de una pérdida</h2>
+
           <p>
             Las familias deben coordinar instituciones, documentos y plazos
             distintos justo cuando menos energía tienen para hacerlo. Nosotros
@@ -225,8 +233,8 @@ export default function Home() {
 
           <p>
             SomosLegado nace en 2026 como un servicio legal especializado,
-            creado por OlaveEchenique Abogados | Consultores para transformar
-            la experiencia sucesoria en un proceso más ordenado, transparente y
+            creado por OlaveEchenique Abogados | Consultores para transformar la
+            experiencia sucesoria en un proceso más ordenado, transparente y
             humano.
           </p>
 
@@ -245,13 +253,16 @@ export default function Home() {
 
         <aside className="story-card">
           <FlowerMark />
+
           <blockquote>
             “Ordenamos lo legal con el cuidado que cada historia merece.”
           </blockquote>
+
           <p>
             Experiencia jurídica, procesos claros y cercanía durante todo el
             acompañamiento.
           </p>
+
           <div className="signature">SomosLegado</div>
         </aside>
       </section>
@@ -265,9 +276,11 @@ export default function Home() {
         <div className="founder-grid">
           <article>
             <div className="avatar">AO</div>
+
             <div>
               <h3>Andrés Javier Olave Echenique</h3>
               <small>Socio principal · Dirección jurídica</small>
+
               <p>
                 Abogado por la Universidad Austral de Chile, con experiencia en
                 derecho civil, sucesorio y tributario. Lidera la dirección
@@ -278,9 +291,11 @@ export default function Home() {
 
           <article>
             <div className="avatar">FS</div>
+
             <div>
               <h3>Franz Emil Schaffer Guerrero</h3>
               <small>Socio · Gestión y operaciones</small>
+
               <p>
                 Formado en la Universidad Adolfo Ibáñez. Aporta la visión de
                 gestión, procesos y diseño operativo para entregar un servicio
@@ -295,8 +310,12 @@ export default function Home() {
         <div className="section">
           <div className="section-heading light">
             <p className="eyebrow">Lo que nos define</p>
+
             <h2>Lo que se sembró, florece.</h2>
-            <p>Seis compromisos que orientan cada caso y cada conversación.</p>
+
+            <p>
+              Seis compromisos que orientan cada caso y cada conversación.
+            </p>
           </div>
 
           <div className="principle-grid">
@@ -314,7 +333,9 @@ export default function Home() {
       <section className="section services" id="servicios">
         <div className="section-heading">
           <p className="eyebrow">Nuestros servicios</p>
+
           <h2>Una solución para cada tipo de necesidad</h2>
+
           <p>
             Todo comienza con un diagnóstico. Con esa información te indicamos
             qué nivel corresponde realmente a tu familia.
@@ -323,8 +344,10 @@ export default function Home() {
 
         <div className="payment-note">
           <span>❦</span>
+
           <div>
             <strong>Pago hasta en 6 cuotas sin interés</strong>
+
             <p>
               Disponible en los servicios sucesorios integrales. El Diagnóstico
               se paga al contado.
@@ -345,6 +368,7 @@ export default function Home() {
                       ? "Primer paso recomendado"
                       : "Servicio integral"}
                   </small>
+
                   <h3>{service.name}</h3>
                 </div>
 
@@ -378,6 +402,7 @@ export default function Home() {
         <div className="section contact-layout">
           <div className="contact-copy">
             <p className="eyebrow">Contacto</p>
+
             <h2>Conversemos cuando estés listo.</h2>
 
             <p>
@@ -389,7 +414,9 @@ export default function Home() {
               <div>
                 <dt>WhatsApp</dt>
                 <dd>
-                  <a href="https://wa.me/56953155900">+56 9 5315 5900</a>
+                  <a href="https://wa.me/56953155900">
+                    +56 9 5315 5900
+                  </a>
                 </dd>
               </div>
 
@@ -415,13 +442,12 @@ export default function Home() {
 
       <footer>
         <div className="footer-main">
-          <div>
-            <div className="footer-brand-text">
-  <strong>Somos Legado</strong>
-  <p>Lo que hacemos hoy, permanece mañana.</p>
-</div>
+          <div className="footer-brand-text">
+            <strong>Somos Legado</strong>
+            <p>Lo que hacemos hoy, permanece mañana.</p>
+          </div>
 
-          <div>
+          <div className="footer-company">
             <strong>Una empresa de</strong>
             <p>OlaveEchenique Abogados | Consultores</p>
           </div>
