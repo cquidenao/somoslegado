@@ -193,14 +193,13 @@ export default function Home() {
               Empieza con un diagnóstico
             </a>
 
-            <a
-              className="button secondary"
-              href="https://wa.me/56953155900?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20SomosLegado"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Conversemos por WhatsApp
-            </a>
+           <a
+  href="https://wa.me/569XXXXXXXX?text=Hola%2C%20quisiera%20recibir%20orientaci%C3%B3n%20sobre%20un%20tr%C3%A1mite%20sucesorio."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  WhatsApp
+</a>
           </div>
 
           <div className="trust-row">
