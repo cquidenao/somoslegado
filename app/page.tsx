@@ -97,20 +97,31 @@ function FlowerMark({ light = false }: { light?: boolean }) {
 export default function Home() {
   return (
     <main>
+      {/* =========================
+          NAVBAR
+      ========================== */}
       <header className="site-header">
-        <a href="/" className="brand-logo" aria-label="Somos Legado - Inicio">
-  <img
-    src="/images/somos-legado.png"
-    alt="Somos Legado"
-  />
+        <a
+          href="/"
+          className="brand-logo"
+          aria-label="Somos Legado - Inicio"
+        >
+          <img
+            src="/images/somos-legado.png"
+            alt="Somos Legado"
+          />
 
-  <span className="brand-parent">
-    Una empresa de
-    <strong>OlaveEchenique Abogados | Consultores</strong>
-  </span>
-</a>
+          <span className="brand-parent">
+            Una empresa de
+            <strong>OlaveEchenique Abogados | Consultores</strong>
+          </span>
+        </a>
 
-        <nav aria-label="Navegación principal">
+        {/* MENÚ ESCRITORIO */}
+        <nav
+          className="desktop-nav"
+          aria-label="Navegación principal"
+        >
           <a href="#inicio">Inicio</a>
           <a href="#nosotros">Quiénes somos</a>
           <a href="#principios">Lo que nos define</a>
@@ -122,8 +133,36 @@ export default function Home() {
         <a className="header-cta" href="#contacto">
           Solicitar diagnóstico
         </a>
+
+        {/* MENÚ MÓVIL */}
+        <details className="mobile-menu">
+          <summary aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+          </summary>
+
+          <div className="mobile-menu-panel">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Quiénes somos</a>
+            <a href="#principios">Lo que nos define</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+            <a href="/admin">Admin</a>
+
+            <a
+              className="mobile-menu-cta"
+              href="#contacto"
+            >
+              Solicitar diagnóstico
+            </a>
+          </div>
+        </details>
       </header>
 
+      {/* =========================
+          HERO
+      ========================== */}
       <section className="hero" id="inicio">
         <div className="hero-leaves leaves-left" aria-hidden="true">
           ❧
@@ -172,11 +211,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* =========================
+          PROBLEMA
+      ========================== */}
       <section className="section problem">
         <div className="section-heading">
           <p className="eyebrow">El problema que resolvemos</p>
 
-          <h2>Más de 40 trámites pueden aparecer después de una pérdida</h2>
+          <h2>
+            Más de 40 trámites pueden aparecer después de una pérdida
+          </h2>
 
           <p>
             Las familias deben coordinar instituciones, documentos y plazos
@@ -189,6 +233,7 @@ export default function Home() {
           <article>
             <span>01</span>
             <h3>Un solo lugar</h3>
+
             <p>
               Un equipo coordina el proceso sucesorio completo, sin obligarte a
               buscar distintos profesionales.
@@ -198,6 +243,7 @@ export default function Home() {
           <article>
             <span>02</span>
             <h3>Precio claro</h3>
+
             <p>
               Conoces el alcance y los honorarios antes de empezar, sin cobros
               inesperados.
@@ -207,6 +253,7 @@ export default function Home() {
           <article>
             <span>03</span>
             <h3>Plazos definidos</h3>
+
             <p>
               Cada etapa tiene un seguimiento claro y una explicación sencilla
               de lo que viene.
@@ -216,6 +263,7 @@ export default function Home() {
           <article>
             <span>04</span>
             <h3>Respaldo profesional</h3>
+
             <p>
               Una empresa de OlaveEchenique Abogados | Consultores, con
               presencia en el sur de Chile.
@@ -224,6 +272,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* =========================
+          QUIÉNES SOMOS
+      ========================== */}
       <section className="section story" id="nosotros">
         <div className="story-copy">
           <p className="eyebrow">Quiénes somos</p>
@@ -268,6 +319,9 @@ export default function Home() {
         </aside>
       </section>
 
+      {/* =========================
+          EQUIPO
+      ========================== */}
       <section className="section founders">
         <div className="section-heading">
           <p className="eyebrow">El equipo</p>
@@ -307,6 +361,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* =========================
+          PRINCIPIOS
+      ========================== */}
       <section className="principles" id="principios">
         <div className="section">
           <div className="section-heading light">
@@ -331,6 +388,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* =========================
+          SERVICIOS
+      ========================== */}
       <section className="section services" id="servicios">
         <div className="section-heading">
           <p className="eyebrow">Nuestros servicios</p>
@@ -386,7 +446,9 @@ export default function Home() {
               </ul>
 
               {service.featured && (
-                <a href="#contacto">Solicitar diagnóstico →</a>
+                <a href="#contacto">
+                  Solicitar diagnóstico →
+                </a>
               )}
             </article>
           ))}
@@ -399,6 +461,9 @@ export default function Home() {
         </p>
       </section>
 
+      {/* =========================
+          CONTACTO
+      ========================== */}
       <section className="contact" id="contacto">
         <div className="section contact-layout">
           <div className="contact-copy">
@@ -441,6 +506,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* =========================
+          FOOTER
+      ========================== */}
       <footer>
         <div className="footer-main">
           <div className="footer-brand-text">
