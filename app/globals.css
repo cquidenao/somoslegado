@@ -2509,29 +2509,10 @@ footer strong {
   }
 }
 
-/* =========================================================
-   ALINEACIÓN UNIFORME DE TEXTOS
-   ========================================================= */
-
-.lead,
-.section-heading > p:not(.eyebrow),
-.feature-grid p,
-.story-copy > p:not(.eyebrow),
-.story-card > p,
-.founder-grid p,
-.principle-grid p,
-.payment-note p,
-.service-list li,
-.legal-note,
-.contact-copy > p:not(.eyebrow),
-.footer-brand-text p,
-.footer-company p {
+/* FORZAR JUSTIFICADO EN TODOS LOS TEXTOS DESCRIPTIVOS */
+.principle-grid article p,
+.principle-grid p {
+  width: 100% !important;
   text-align: justify !important;
-  text-justify: inter-word;
-
-  hyphens: none;
-  -webkit-hyphens: none;
-
-  word-break: normal;
-  overflow-wrap: normal;
+  text-justify: inter-word !important;
 }
