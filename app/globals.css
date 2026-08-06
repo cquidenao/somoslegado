@@ -17,61 +17,136 @@
 @media(max-width:760px){.admin-shell{grid-template-columns:1fr}.admin-sidebar{position:static;height:auto;padding:18px}.admin-kicker{display:none}.admin-nav{display:flex;margin-top:16px}.admin-nav button{width:auto}.admin-account{margin-top:15px}.admin-content{padding:27px 16px 50px}.admin-topbar{align-items:flex-start}.admin-stat-grid{grid-template-columns:1fr 1fr}.admin-filters{grid-template-columns:1fr}.admin-login-card{padding:32px 24px}}
 @media(max-width:480px){.admin-stat-grid{grid-template-columns:1fr}.admin-topbar{flex-direction:column}.admin-refresh{align-self:flex-end}}
 
+/* ========================================
+   NAVBAR SOMOS LEGADO
+   ======================================== */
 
-/* LOGO SOMOS LEGADO */
+.site-header {
+  min-height: 145px;
+  padding: 12px 7.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  background: #fffdf8;
+}
 
+/* Logo + empresa */
 .brand-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   text-decoration: none;
+  min-width: 175px;
 }
 
 .brand-logo img {
   display: block;
-  width: 95px;
+  width: 105px;
   height: auto;
   object-fit: contain;
 }
 
+/* "Una empresa de OlaveEchenique..." */
 .brand-parent {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3px;
-  color: #777166;
-  font-size: 7px;
+
+  margin-top: 5px;
+
+  font-size: 9px;
   line-height: 1.35;
   text-align: center;
+
+  color: #69645b;
   letter-spacing: 0.02em;
+
   white-space: nowrap;
 }
 
 .brand-parent strong {
+  margin-top: 1px;
+
   color: #304733;
+  font-size: 10px;
   font-weight: 600;
 }
 
-/* Tablet */
-@media (max-width: 900px) {
+/* Menú */
+.site-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+  flex: 1;
+}
+
+.site-header nav a {
+  font-size: 14px;
+  letter-spacing: 0.08em;
+}
+
+/* Botón */
+.header-cta {
+  padding: 18px 23px;
+  white-space: nowrap;
+}
+
+
+/* TABLET */
+@media (max-width: 1100px) {
+  .site-header {
+    padding-left: 4%;
+    padding-right: 4%;
+    gap: 18px;
+  }
+
+  .site-header nav {
+    gap: 20px;
+  }
+
+  .brand-logo {
+    min-width: 155px;
+  }
+
   .brand-logo img {
-    width: 88px;
+    width: 95px;
   }
 
   .brand-parent {
-    font-size: 6.5px;
+    font-size: 8px;
+  }
+
+  .brand-parent strong {
+    font-size: 9px;
   }
 }
 
-/* Móvil */
-@media (max-width: 600px) {
+
+/* MÓVIL */
+@media (max-width: 800px) {
+  .site-header {
+    min-height: auto;
+    padding: 12px 20px;
+  }
+
+  .brand-logo {
+    min-width: auto;
+  }
+
   .brand-logo img {
-    width: 82px;
+    width: 90px;
   }
 
   .brand-parent {
-    font-size: 6px;
+    font-size: 7px;
+  }
+
+  .brand-parent strong {
+    font-size: 8px;
   }
 }
 
