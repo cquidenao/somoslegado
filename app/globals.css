@@ -22,8 +22,8 @@
    ======================================== */
 
 .site-header {
-  min-height: 145px;
-  padding: 12px 7.5%;
+  min-height: 120px;
+  padding: 8px 7.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
