@@ -490,6 +490,8 @@ export default function Home() {
                 <dd>
                   <a href="mailto:aolave@somoslegado.cl">
                     aolave@somoslegado.cl
+                    fschaffer@somoslegado.cl
+                    contacto@somoslegado.cl
                   </a>
                 </dd>
               </div>
