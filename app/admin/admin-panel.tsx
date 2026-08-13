@@ -15,7 +15,11 @@ type Solicitud = {
 };
 
 const ESTADOS = ["nueva", "contactada", "en proceso", "finalizada", "descartada"];
-const ADMIN_EMAILS = ["c.a.p.quidenao@gmail.com", "andres@olaveechenique.cl"];
+const ADMIN_EMAILS = [
+  "c.a.p.quidenao@gmail.com",
+  "aolave@somoslegado.cl",
+  "fschaffer@somoslegado.cl",
+];
 
 const estadoLabel = (estado: string | null) => {
   const value = estado || "nueva";
