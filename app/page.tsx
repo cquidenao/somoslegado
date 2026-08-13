@@ -486,15 +486,22 @@ export default function Home() {
               </div>
 
               <div>
-                <dt>Correo</dt>
-                <dd>
-                  <a href="mailto:aolave@somoslegado.cl">
-                    aolave@somoslegado.cl
-                    fschaffer@somoslegado.cl
-                    contacto@somoslegado.cl
-                  </a>
-                </dd>
-              </div>
+  <dt>Correo</dt>
+
+  <dd style="display: flex; flex-direction: column; gap: 6px;">
+    <a href="mailto:aolave@somoslegado.cl">
+      aolave@somoslegado.cl
+    </a>
+
+    <a href="mailto:fschaffer@somoslegado.cl">
+      fschaffer@somoslegado.cl
+    </a>
+
+    <a href="mailto:contacto@somoslegado.cl">
+      contacto@somoslegado.cl
+    </a>
+  </dd>
+</div>
 
               <div>
                 <dt>Horario</dt>
