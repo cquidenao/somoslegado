@@ -488,7 +488,13 @@ export default function Home() {
               <div>
   <dt>Correo</dt>
 
-  <dd style="display: flex; flex-direction: column; gap: 6px;">
+  <dd
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    gap: "6px",
+  }}
+>
     <a href="mailto:aolave@somoslegado.cl">
       aolave@somoslegado.cl
     </a>
